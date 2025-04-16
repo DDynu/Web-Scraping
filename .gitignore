@@ -176,3 +176,4 @@ cython_debug/
 # Output folders
 parsed/*
 raw/*
+__pycache__/*
