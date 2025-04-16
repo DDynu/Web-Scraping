@@ -25,7 +25,7 @@ async def main():
             html_content = file.read()
 
         with open(f'./parsed/all_div.html', 'a', encoding='utf-8') as htmlFile:
-            htmlFile.write("<section style=\"color:black\">")
+            htmlFile.write("<section>")
             htmlFile.write(html_content)
             htmlFile.write("<br>")
             htmlFile.write("</section>")
